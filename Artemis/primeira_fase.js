@@ -8,7 +8,7 @@ function primeiraFase(){
                     <head>
                     <meta charset="UTF-8">                   
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <link rel="stylesheet" href="estiloanubis.css">
+                    <link rel="stylesheet" href="estiloartemis.css">
                     <title>FASE - 1</title>
                     </head>
                     
@@ -17,7 +17,7 @@ function primeiraFase(){
                     <div class="acertou">
                     <h1>Você acertou</h1>
                     <h2>Clique no botão abaixo para avançar</h2>
-                    <a href="anubis_segunda_fase.html"><button>Avançar</button><a>
+                    <a href="artemis_segunda_fase.html"><button>Avançar</button><a>
 
                     <div>`
 
@@ -25,7 +25,7 @@ function primeiraFase(){
                     <head>
                     <meta charset="UTF-8">                   
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <link rel="stylesheet" href="estiloanubis.css">
+                    <link rel="stylesheet" href="estiloartemis.css">
                     <title>FASE - 1</title>
                     </head>
                     
