@@ -8,7 +8,7 @@ function segundaFase(){
 
     <meta charset="UTF-8">                   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloartemis.css">
+    <link rel="stylesheet" href="estiloloki.css">
     <title>FASE - 1</title>
 
     </head>
@@ -19,7 +19,7 @@ function segundaFase(){
 
     <h2>Clique no botão abaixo para avançar</h2>
 
-    <a href="artemis_terceira_fase.html"><button>Avançar</button><a>
+    <a href="loki_terceira_fase.html"><button>Avançar</button><a>
 
     <div>`
 
@@ -27,7 +27,7 @@ function segundaFase(){
 
                     <meta charset="UTF-8">                   
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <link rel="stylesheet" href="estiloartemis.css">
+                    <link rel="stylesheet" href="estiloloki.css">
                     <title>FASE - 1</title>
 
                     </head>          
@@ -43,11 +43,11 @@ function segundaFase(){
 
     var opcao = prompt("Digite a opção escolhida");
 
-    if(opcao == 1)
+    if(opcao == 2)
     {
         document.write(acertou);        
     }
-    else if(opcao==2){
+    else if(opcao==1){
 
         document.write(gameOver);
         

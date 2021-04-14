@@ -10,7 +10,6 @@ html {
   }
 
 body{
-
     min-height: 100%;
     margin: 0 auto;
     display: flex;
@@ -41,16 +40,15 @@ footer{
     align-items: flex-end;
     background-color:#0D0D0D;
     width: 100%;
-    height: 200px;   
+    height: 200px;    
+   
     border-top: solid;
     border-width: 5px;
     border-color:#EAF205;
-    
-    
+    position: fixed;
+    bottom:0;
 
 }
-
-
 
 .fotoanubis {
 
@@ -59,10 +57,11 @@ footer{
 }
 
 main{
-    
-    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 3% 0 2% 0;
     width: 100%;
-    margin-bottom: auto;
+    flex-wrap: wrap;
 
 
 }
@@ -85,7 +84,13 @@ h1{
 }
 
 h2{
-    margin: 10px 0 65px 0 ;
+    margin: 10px 0 10px 0 ;
+    text-align: center;
+    font-family: 'Reggae One', cursive;  
+}
+
+h3{
+    margin: 10px 0 10px 0 ;
     text-align: center;
     font-family: 'Reggae One', cursive;  
 }
@@ -121,10 +126,10 @@ h2{
 }
 
 .deus img:hover{
-    width: 96%;
+
     border:solid;
     border-width: 4px;
-    border-color: black;
+    border-color: #0D0D0D;
     border-radius: 2.5ch;
 }
 
@@ -132,23 +137,112 @@ footer p{
     color:white;
 }
 
-small{
-    color: white;
+main img{
+    text-align: center;
+    border:solid;
+    border-width: 4px;
+    border-color: #0D0D0D;
+    border-radius: 2.5ch;
+    width: 70%;
 }
 
-small{
-    font-size: 100%;
-    text-align: center;
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    padding: 0 5px 0 5px;
+    
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.textomain{
+    
+    border:solid;
+    border-width: 4px;
+    border-color: #0D0D0D;
+    border-radius: 2.5ch;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;    
+    padding: 10px 10px 10px 10px;
+    height: 100%;
+    font-family: 'Reggae One', cursive;
+
+}
+
+.gameover{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #EAF205;
+    width: 100%;
+    height: 100%;
+}
+
+.acertou{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    background-color: #EAF205;
+    width: 100%;
+    height: 100%;
+}
+
+.textomain p{
+   
+    text-indent: 15px;
+       
+}
+
+hr{
+    margin: 10% 0 5% 0;
+    width: 100%;
+    height: 3px;
+}
+
+.alerta{
+    border:solid;
+    border-color: black;
+    border-width: 2px;
+    color:red;
+}
+
+button{
+    width: 250px;
+    height: 60px;
+    background-color: #EAF205;
+    font-family: 'Reggae One', cursive;
+    font-size: 25px;
+    transition: color 0.8s, background-color 0.8s;
+    margin: 20px 0 20px 0;
+}
+
+button:hover{
+    background-color: #0D0D0D;
+    color:#EAF205;
 }
 
 @media (max-width: 720px){
+
+    
     
     footer{
 
         display: flex;
         justify-content: center;
         align-items: flex-end;
-        flex-wrap: wrap;
         background-color:#0D0D0D;
         width: 100%;
         height: 200px;    
@@ -163,6 +257,12 @@ small{
         margin: 10px 0 10px 0 ;
         text-align: center;
         font-family: 'Reggae One', cursive;  
+    }
+
+    main div{
+
+        width: 100%;
+        
     }
     
     }

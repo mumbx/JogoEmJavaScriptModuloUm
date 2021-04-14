@@ -2,24 +2,26 @@
 
 
 
-function segundaFase(){    
+function terceiraFase(){    
     
     var acertou = `<head>
 
     <meta charset="UTF-8">                   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloartemis.css">
+    <link rel="stylesheet" href="estiloloki.css">
     <title>FASE - 1</title>
 
     </head>
     
     <div class="acertou">
 
-    <h1>Você acertou</h1>
+    <h1>Você Venceu!</h1>
 
-    <h2>Clique no botão abaixo para avançar</h2>
+    <img src="../loki.png">
 
-    <a href="artemis_terceira_fase.html"><button>Avançar</button><a>
+    <h2>Clique no botão abaixo para escolher outro deus</h2>
+
+    <a href="../index.html"><button>Jogar Novamente</button><a>
 
     <div>`
 
@@ -27,7 +29,7 @@ function segundaFase(){
 
                     <meta charset="UTF-8">                   
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <link rel="stylesheet" href="estiloartemis.css">
+                    <link rel="stylesheet" href="estiloloki.css">
                     <title>FASE - 1</title>
 
                     </head>          
@@ -56,7 +58,7 @@ function segundaFase(){
     {
         if((opcao > 2) || (opcao < 0))
         {
-            return segundaFase()
+            return terceiraFase()
         }
 
     }
